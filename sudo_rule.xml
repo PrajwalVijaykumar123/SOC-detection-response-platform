@@ -1,0 +1,12 @@
+<group name="local,syscheck,">
+
+  <rule id="100010" level="12">
+    <match>SOC_TEST_ALERT</match>
+    <description>Suspicious activity detected - simulated attack</description>
+    <mitre>
+      <id>T1548.003</id>
+    </mitre>
+    <group>privilege_escalation,mitre_attack,</group>
+  </rule>
+
+</group>
